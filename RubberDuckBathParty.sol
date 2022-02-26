@@ -63,7 +63,7 @@ contract RubberDuckBathParty is ERC721, Ownable {
   mapping(address => uint256) public addressMintedBalance;
 
   constructor() ERC721("RubberDuckBathParty", "RDBP") {
-    setBaseURI("https://meta.duck.art/");
+    setBaseURI("https://duck.art/meta/");
     _nextTokenId.increment();
   }
 
